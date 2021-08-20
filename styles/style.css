@@ -51,6 +51,7 @@
 
 .header__paragraph {
   margin: 0;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
 }
 
 .header__main-illustration {
@@ -63,6 +64,7 @@
   bottom: 0;
   position: absolute;
 }
+
 .logo_place_header {
   position: absolute;
   height: 32px;
@@ -291,7 +293,7 @@
 .kaufman_triangle {
   width: 877px;
   height: 877px;
-  background-image: url(../images/kaufman-triangle.svgfooter__social-icon);
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   background-position: center;
   position: absolute;

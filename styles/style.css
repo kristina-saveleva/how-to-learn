@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif; 
-  margin: 0;
 }
 
 .header {
@@ -56,13 +55,7 @@
   right: 0;
   bottom: 0;
   position: absolute;
-}
-
-@media screen and (max-width: 1280px) {
-  .header__main-illustration {
-    width: 55%;
-    height: auto;
-  }
+  object-fit: cover;
 }
 
 .logo_place_header {
@@ -192,7 +185,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px 0 0;
+  margin: 20px 0 0;
 }
 
 .feynman {
@@ -346,7 +339,6 @@
 }
 
 .footer__author {
-  margin-top: 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -357,7 +349,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  padding: 0;
 }
 
 .footer__social-icon {
@@ -374,12 +367,8 @@
   font-weight: normal;
 }
 
-.footer__element {
-  list-style-type: none;
-}
-
 .footer__column-links {
   list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }

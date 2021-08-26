@@ -8,6 +8,7 @@
 
 @import url('__book/khan__book-container.css');
 @import url('__book/khan__book-pic.css');
+@import url('__buy/khan__buy-link.css');
 
 .khan {
   background-color:  #f2f2f2;

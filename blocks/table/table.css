@@ -9,9 +9,6 @@
 @import url('__text/table__text_theme_dark.css');
 
 
-@import url('_theme/table_theme_dark.css');
-
-
 .table {
     display: flex;
     flex-wrap: wrap;

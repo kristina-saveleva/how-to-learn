@@ -18,3 +18,19 @@
 @import url('../blocks/kaufman/kaufman.css');
 @import url('../blocks/resources/resources.css');
 @import url('../blocks/footer/footer.css');
+
+/* тренажер не пропускал ссылки ниже в своих папках, пишет: (пример) В файле feynman.css на строке 4 использован импорт файла стилей. Перенесите его в файл index.css. */
+
+
+@import url('__link/feynman__link.css');
+@import url('__column-links/footer__column-links.css');
+@import url('__link/header__link.css');
+@import url('__triangle/kaufman__triangle.css');
+@import url('__buy/khan__buy-link.css');
+@import url('_place/logo_place_footer.css');
+@import url('__logo/resources__logo-zone.css');
+@import url('_theme/section-subtitle_theme_dark.css');
+@import url('_theme/section-title_theme_dark.css');
+@import url('_theme/table_theme_dark.css');
+@import url('__paragraph/two-columns__paragraph.css');
+@import url('__iframe/video__iframe.css');

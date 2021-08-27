@@ -3,8 +3,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    min-height: 790px;
+    min-height: 890px;
     flex-direction: column;
     box-sizing: border-box;
-    padding-top: 70px;
+    padding-top: 100px;
   }
